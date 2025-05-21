@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pesquisa de Opinião</title>
+</head>
+<body>
+
+  <h1>Pesquisa de Opinião</h1>
+
+  <form action="#" method="post">
+    
+    <p><strong>Gênero:</strong></p>
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label><br>
+
+    <input type="radio" id="feminino" name="genero" value="feminino">
+    <label for="feminino">Feminino</label><br>
+
+    <input type="radio" id="outro" name="genero" value="outro">
+    <label for="outro">Outro</label><br><br>
+
+    <label for="idade"><strong>Faixa Etária:</strong></label><br>
+    <select id="idade" name="idade">
+      <option value="18-25">18 a 25</option>
+      <option value="26-35">26 a 35</option>
+      <option value="36-45">36 a 45</option>
+      <option value="46+">46 ou mais</option>
+    </select><br><br>
+
+    <p><strong>Interesses:</strong></p>
+    <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia">
+    <label for="tecnologia">Tecnologia</label><br>
+
+    <input type="checkbox" id="esportes" name="interesses" value="esportes">
+    <label for="esportes">Esportes</label><br>
+
+    <input type="checkbox" id="filmes" name="interesses" value="filmes">
+    <label for="filmes">Filmes</label><br><br>
+
+    <label for="comentarios"><strong>Comentários:</strong></label><br>
+    <textarea id="comentarios" name="comentarios" rows="4" cols="40" placeholder="Deixe aqui sua opinião..."></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
+
